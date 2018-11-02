@@ -3,5 +3,5 @@ def prime?(number)
     return false
   else
     (2..number-1).to_a.all? { |i| (number % i != 0 }
-  end  
+  end
 end
