@@ -1,4 +1,4 @@
 def prime?(number)
-  return if num <= 1
+  return if number <= 1
   (2..Math.sqrt(number)).none? { |i| (number % i).zero? }
 end
